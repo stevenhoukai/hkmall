@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hkmall.iml" filepath="$PROJECT_DIR$/.idea/hkmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkmall-bapi/hkmall-bapi.iml" filepath="$PROJECT_DIR$/hkmall-bapi/hkmall-bapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkmall-common-util/hkmall-common-util.iml" filepath="$PROJECT_DIR$/hkmall-common-util/hkmall-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkmall-hkshop-web/hkmall-hkshop-web.iml" filepath="$PROJECT_DIR$/hkmall-hkshop-web/hkmall-hkshop-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkmall-parent/hkmall-parent.iml" filepath="$PROJECT_DIR$/hkmall-parent/hkmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkmall-service-util/hkmall-service-util.iml" filepath="$PROJECT_DIR$/hkmall-service-util/hkmall-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkmall-user-manager/hkmall-user-manager.iml" filepath="$PROJECT_DIR$/hkmall-user-manager/hkmall-user-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkmall-web-util/hkmall-web-util.iml" filepath="$PROJECT_DIR$/hkmall-web-util/hkmall-web-util.iml" />
+    </modules>
+  </component>
+</project>

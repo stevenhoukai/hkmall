@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hkamllparent/pom.xml" />
+        <option value="$PROJECT_DIR$/hkmall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hkmall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/hkmall-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/com-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/hkmall-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/hkmall-bapi/pom.xml" />
+        <option value="$PROJECT_DIR$/hkmall-user-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/hkmall-hkshop-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>

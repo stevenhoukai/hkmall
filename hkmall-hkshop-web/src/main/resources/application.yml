@@ -1,0 +1,18 @@
+spring:
+  dubbo:
+    application:
+      name: hkmallcomsumer
+      owner: sprite
+      version: 1.0.1
+    registry:
+      address: zookeeper://192.168.10.121:2182?backup=192.168.10.121:2181,192.168.10.121:2183
+    base-package: com.hk.hkmall
+    protocol:
+      name: dubbo
+      port: 20880
+    consumer:
+      timeout: 10000
+      check: false
+
+server:
+  port: 8081

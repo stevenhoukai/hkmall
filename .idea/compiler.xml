@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hkmall-bapi" />
+        <module name="hkmall-common-util" />
+        <module name="hkmall-hkshop-web" />
+        <module name="hkmall-service-util" />
+        <module name="hkmall-user-manager" />
+        <module name="hkmall-web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hkmall-api" target="1.5" />
+      <module name="hkmall-bapi" target="1.8" />
+      <module name="hkmall-bean" target="1.5" />
+      <module name="hkmall-common-util" target="1.8" />
+      <module name="hkmall-commons-util" target="1.5" />
+      <module name="hkmall-hkshop-web" target="1.8" />
+      <module name="hkmall-parent" target="1.8" />
+      <module name="hkmall-service-util" target="1.8" />
+      <module name="hkmall-user" target="1.5" />
+      <module name="hkmall-user-manager" target="1.8" />
+      <module name="hkmall-web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hkmall-bapi" options="-parameters" />
+      <module name="hkmall-bean" options="-parameters" />
+      <module name="hkmall-common-util" options="-parameters" />
+      <module name="hkmall-hkshop-web" options="-parameters" />
+      <module name="hkmall-service-util" options="-parameters" />
+      <module name="hkmall-user" options="" />
+      <module name="hkmall-user-manager" options="-parameters" />
+      <module name="hkmall-web-util" options="-parameters" />
+    </option>
+  </component>
+</project>
