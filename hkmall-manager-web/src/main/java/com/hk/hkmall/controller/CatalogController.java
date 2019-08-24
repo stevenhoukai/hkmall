@@ -15,7 +15,7 @@ public class CatalogController {
     @Reference
     ICatalogService catalogService;
 
-    //test
+    //testtest
     @RequestMapping("/getCatalog1")
     public List<PmsBaseCatalog1> getCatalog1() {
         return null;
