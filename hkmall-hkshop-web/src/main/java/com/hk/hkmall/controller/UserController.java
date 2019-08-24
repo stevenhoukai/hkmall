@@ -4,6 +4,8 @@ package com.hk.hkmall.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.bean.UmsMember;
 import com.hk.hkmall.hkmalluser.service.IUserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,4 +36,10 @@ public class UserController {
         return iUserService.getAllUsers();
     }
 
+    @RequestMapping("/testlog")
+    public String testlog(){
+        final Logger logger = LoggerFactory.getLogger(UserController.class);
+        logger.debug("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        return  "1111";
+    }
 }

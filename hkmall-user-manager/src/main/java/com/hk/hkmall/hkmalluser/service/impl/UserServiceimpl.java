@@ -26,6 +26,7 @@ public class UserServiceimpl implements IUserService {
 
     @Override
     public List<UmsMember> getAllUsers() {
+
         return testMapper.getAllUsers();
     }
 }

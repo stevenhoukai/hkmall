@@ -1,11 +1,9 @@
 package com.bean;
 
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * @param
@@ -20,6 +18,9 @@ public class PmsBaseCatalog2 implements Serializable {
     private String name;
     @Column
     private String catalog1Id;
+
+    @Transient
+    private List<PmsBaseCatalog3> catalog3s;
 
     public String getId() {
         return id;
@@ -43,5 +44,13 @@ public class PmsBaseCatalog2 implements Serializable {
 
     public void setCatalog1Id(String catalog1Id) {
         this.catalog1Id = catalog1Id;
+    }
+
+    public List<PmsBaseCatalog3> getCatalog2s() {
+        return catalog3s;
+    }
+
+    public void setCatalog2s(List<PmsBaseCatalog3> catalog3s) {
+        this.catalog3s = catalog3s;
     }
 }
