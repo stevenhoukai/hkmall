@@ -11,10 +11,10 @@ spring:
       name: dubbo
       port: 20880
     consumer:
-      timeout: 10000
+      timeout: 100000
       check: false
 
 server:
-  port: 8083
+  port: 8089
 
 

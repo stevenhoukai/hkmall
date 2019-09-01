@@ -2,9 +2,9 @@ package com.hk.hkmall.mapper;
 
 
 import com.bean.PmsBaseCatalog3;
-import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
-@Mapper
+@Repository
 public interface PmsBaseCatalogMapper3 extends tk.mybatis.mapper.common.Mapper<PmsBaseCatalog3> {
 
 //    @Select("")
