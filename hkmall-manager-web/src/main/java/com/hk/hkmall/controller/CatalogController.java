@@ -2,9 +2,7 @@ package com.hk.hkmall.controller;
 
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.bean.PmsBaseCatalog1;
-import com.bean.PmsBaseCatalog2;
-import com.bean.PmsBaseCatalog3;
+import com.bean.*;
 import com.service.ICatalogService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -39,5 +37,17 @@ public class CatalogController {
     public List<PmsBaseCatalog3> getCatalog3(@RequestParam Long catalog2Id) {
         List<PmsBaseCatalog3> catalog3 = catalogService.getCatalog3(catalog2Id);
         return catalog3;
+    }
+
+    @RequestMapping("/attrInfoList")
+    public List<PmsBaseAttrInfo> getAttrInfoList(@RequestParam Long catalog3Id) {
+        List<PmsBaseAttrInfo> attrInfoList = catalogService.getBaseInfoAttrInfos(catalog3Id);
+        return attrInfoList;
+    }
+
+    @RequestMapping("/getAttrValueList")
+    public List<PmsBaseAttrValue> getAttrValueList(@RequestParam Long attrId) {
+        List<PmsBaseAttrValue> attrInfoList = catalogService.getAttrValueList(attrId);
+        return attrInfoList;
     }
 }

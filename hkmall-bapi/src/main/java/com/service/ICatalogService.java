@@ -1,8 +1,6 @@
 package com.service;
 
-import com.bean.PmsBaseCatalog1;
-import com.bean.PmsBaseCatalog2;
-import com.bean.PmsBaseCatalog3;
+import com.bean.*;
 
 import java.util.List;
 
@@ -15,4 +13,9 @@ public interface ICatalogService {
 
 
     List<PmsBaseCatalog3> getCatalog3(Long catalog2Id);
+
+
+    List<PmsBaseAttrInfo> getBaseInfoAttrInfos(Long catalog3Id);
+
+    List<PmsBaseAttrValue> getAttrValueList(Long attrId);
 }

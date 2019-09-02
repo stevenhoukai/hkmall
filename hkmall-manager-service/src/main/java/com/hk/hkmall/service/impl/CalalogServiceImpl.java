@@ -1,9 +1,7 @@
 package com.hk.hkmall.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.bean.PmsBaseCatalog1;
-import com.bean.PmsBaseCatalog2;
-import com.bean.PmsBaseCatalog3;
+import com.bean.*;
 import com.hk.hkmall.mapper.PmsBaseCatalogMapper;
 import com.hk.hkmall.mapper.PmsBaseCatalogMapper2;
 import com.hk.hkmall.mapper.PmsBaseCatalogMapper3;
@@ -42,6 +40,18 @@ public class CalalogServiceImpl implements ICatalogService {
     public List<PmsBaseCatalog3> getCatalog3(Long catalog2Id) {
         List<PmsBaseCatalog3> test3 = testMapper.test3(catalog2Id);
         return test3;
+    }
+
+    @Override
+    public List<PmsBaseAttrInfo> getBaseInfoAttrInfos(Long catalog3Id) {
+        List<PmsBaseAttrInfo> attrInfoList = testMapper.test4(catalog3Id);
+        return attrInfoList;
+    }
+
+    @Override
+    public List<PmsBaseAttrValue> getAttrValueList(Long attrId) {
+        List<PmsBaseAttrValue> attrInfoList = testMapper.test5(attrId);
+        return attrInfoList;
     }
 
 }
